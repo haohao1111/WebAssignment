@@ -109,6 +109,7 @@ section h2 {
   color: #fdcc52;
 }
 
+//When the device is in the normal size
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
