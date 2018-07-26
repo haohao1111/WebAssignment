@@ -55,6 +55,7 @@ section h2 {
   font-size: 50px;
 }
 
+/* When the device is less then 992px */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -109,7 +110,8 @@ section h2 {
   color: #fdcc52;
 }
 
-//When the device is in the normal size
+/* When the device is in the normal size */
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -119,7 +121,7 @@ section h2 {
     color: fade(white, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: white;
+    color: rgb(25, 230, 110);
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
